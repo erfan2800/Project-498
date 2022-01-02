@@ -15,12 +15,24 @@
     <link href="{{asset('css/owl.carousel.min.css')}}" rel="stylesheet" >
     <link href="{{asset('css/fontawesome.css')}}" rel="stylesheet">
     <link href="{{asset('css/animate.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/datatables.min.css')}}" rel="stylesheet" >
+    <link href="{{asset('css/datatables-select.min.css')}}" rel="stylesheet" >
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" >
+    <link href="{{asset('css/mdb.min.css')}}" rel="stylesheet" >
+    <link href="{{asset('css/sidenav.css')}}" rel="stylesheet" >
+    <link href="{{asset('css/style.css')}}" rel="stylesheet" >
+    <link href="{{asset('css/responsive.css')}}" rel="stylesheet" >
+    <link href="{{asset('css/datatables.min.css')}}" rel="stylesheet" >
+    <link href="{{asset('css/datatables-select.min.css')}}" rel="stylesheet" >
 </head>
 <body>
 
-
+@include('Layout.menu')
 
 @yield('content')
+
+<body class="fix-header fix-sidebar">
 
 
 

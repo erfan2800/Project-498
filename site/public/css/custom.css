@@ -261,3 +261,25 @@
     font-size: 12px !important;
     font-weight: 300 ;
 }
+.notice{
+    border-radius: 5px;
+}
+.box-body{
+    background-color: #41B3AF;
+    border-radius: 5px;
+}
+.box-body .gallery-box-main a{
+    display: block;
+    border-bottom: 1px solid whitesmoke;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 20px 0;
+    color: whitesmoke;
+    font-size: 10px;
+}
+.notice{
+    list-style: none;
+}
+.notice marquee{
+    font-size: 18px;
+}

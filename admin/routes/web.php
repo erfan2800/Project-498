@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::post('dashboard', function () {
+    return view('Layout.menu');
+});
+Route::get('/admin', function () {
+    return view('Layout.adminLogin');
 });
